@@ -1,8 +1,13 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios'
 import Characters from './components/Characters'
+import styled from 'styled-components';
 import './App.css';
 
+const MyH1 = styled.h1`
+  font-family:'Marko One', serif;
+  font-size:10em;
+`;
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
@@ -31,7 +36,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <MyH1>Characters</MyH1>
       <Characters data={data} toggleCard={toggleCard}/>
     </div>
   );

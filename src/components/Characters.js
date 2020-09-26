@@ -10,7 +10,11 @@ const Characters = (props) => {
     return (
         <div>
             {data.map((item,index)=>{
-                return <CharacterCard key={index} character={item}></CharacterCard>
+                return (
+                <div>
+                    <CharacterCard key={index} character={item}/>
+                </div>
+                )
             })}
         </div>
     )

@@ -9,3 +9,9 @@ body {
 .open-card{
   height: 400px;
 }
+
+
+.card{
+  background-color:transparent !important;
+  font-family: 'Marko One', serif;
+}

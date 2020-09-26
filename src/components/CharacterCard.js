@@ -25,7 +25,7 @@ const CharacterCard = (props) =>{
 
     return (
         <div>
-            <Card>
+            <Card backgroundColor="#000">
                 <CardHeader>{props.character.name}</CardHeader>
                     <div className="card">
                         <CardBody>
