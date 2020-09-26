@@ -1,6 +1,6 @@
 // Write your Character component here
 
-import React, { Component } from 'react'; 
+import React, { Component,useState } from 'react'; 
 import CharacterCard from './CharacterCard';
 
 
