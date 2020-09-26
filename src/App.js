@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios'
-import Character from './components/Character'
+import Characters from './components/Characters'
 import './App.css';
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      <Character data = {data}/>
+      <Characters data={data}/>
     </div>
   );
 }
