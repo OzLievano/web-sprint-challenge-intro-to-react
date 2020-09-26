@@ -30,11 +30,21 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS allows a developer to create applications that are more efficient and perform much faster. Especially when data is being changed frequently on the application. 
+
+ReactJS is also component based - this allows for code to be reusable to create multiple html objects with minimal amount of code. 
+
+with ReactJS we have access to the virtual DOM. Allowing us to keep HTML objects in memory without changing the actual DOM tree.
+
 1. Describe component state.
+  Component state is a function that allows us to set the state of an html object. Essentially if a user takes an action we can then change the value of an element attribute.
 
 1. Describe props.
+  Props are parameters or attributes a component can have. Props give developers the ability to have their components share data.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are any external data that our components will need in order to render html objects to our application. We sync reacts with the useEffect and useState hook functions. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
